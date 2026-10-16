@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriShop - Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            text-align: center;
+        }
+        header {
+            background: #263859;
+            color: white;
+            padding: 22px;
+        }
+        nav {
+            background: #17223b;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+        button {
+            background: #263859;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #263859;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PriShop</h1>
+        <p>Your Online Shopping Store</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <h2 id="home">Welcome to PriShop!</h2>
+    <p>Discover products at affordable prices.</p>
+
+    <section class="products" id="products">
+        <div class="product">
+            <h3>T-Shirt</h3>
+            <p>Price: ₹499</p>
+            <button onclick="alert('Demo: T-Shirt selected')">Shop Now</button>
+        </div>
+        <div class="product">
+            <h3>Backpack</h3>
+            <p>Price: ₹799</p>
+            <button onclick="alert('Demo: Backpack selected')">Shop Now</button>
+        </div>
+        <div class="product">
+            <h3>Headphones</h3>
+            <p>Price: ₹999</p>
+            <button onclick="alert('Demo: Headphones selected')">Shop Now</button>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact: prishop@example.com</p>
+        <p>Academic E-Commerce Project</p>
+    </footer>
+</body>
+</html>
